@@ -4,6 +4,9 @@ from pytesseract import pytesseract
 from exceptions import NoExtensionException, NotAllowedExtensionException, FormatNotAcceptedException, EmptyFileException
 
 class UtilsService:
+    """
+        Service to process files and get informations about it.
+    """
     
     def get_extension(filename):
         if '.' in filename:
@@ -22,6 +25,9 @@ class UtilsService:
         return True
     
     def get_format(num):
+        """
+            Fonction to get the format which will be used to write the ChatGPT's answer.
+        """
 
         if num == 1:
 
@@ -61,7 +67,7 @@ class UtilsService:
 
         text = ""
 
-        path_to_tesseract = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
+        path_to_tesseract = r"C:/Program Files/Tesseract-OCR/tesseract.exe" # Path to the tesseract app
 
         pytesseract.tesseract_cmd = path_to_tesseract 
 

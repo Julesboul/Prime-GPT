@@ -22,12 +22,12 @@ def create_app(config):
         try:
 
             if 'resume' not in request.files :
-                return render_template("result.html")
+                return redirect(url_for("error", message="Pas de fichier transmis lors de la requête."))
 
-            resume = request.files.get('resume')
-            type_format = int(request.form.get('typeFormat'))
+            resume = request.files.get('resume') # Get the file
+            type_format = int(request.form.get('typeFormat')) # Get the format for the answer
 
-            answer = ApiGPTService.ask_chat_gpt(resume, type_format, ALLOWED_EXTENSIONS)
+            answer = ApiGPTService.ask_chat_gpt(resume, type_format, ALLOWED_EXTENSIONS) # Ask ChatGPT
 
             return render_template("result.html", answer=answer)
         
@@ -49,22 +49,34 @@ def create_app(config):
     
     @app.route('/error')
     def generic_error():
+        """
+            Endpoint for generic errors
+        """
         return render_template("error.html")
 
     @app.route('/error/<message>', methods=['GET'])
     def error(message):
+        """
+            Endpoint for errors with a message
+        """
 
         return render_template("error.html", message=message)
 
     
     @app.route('/format1', methods=['GET'])
     def format1():
+        """
+            Endpoint to show an example of the format 1
+        """
 
         exemple = UtilsService.get_format(1)
         return render_template("format.html", exemple=exemple)
     
     @app.route('/format2', methods=['GET'])
     def format2():
+        """
+            Endpoint to show an example of the format 2
+        """
 
         exemple = UtilsService.get_format(2)
         return render_template("format.html", exemple=exemple)   

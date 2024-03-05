@@ -13,8 +13,7 @@ Elle réalise un résumé de CV en quelques lignes à l'aide de l'API de ChatGPT
 
 ### 1. Télécharger le projet sur votre répertoire local : 
 ```
-git clone  
-cd 
+git clone git@github.com:Julesboul/Prime-GPT.git 
 ```
 ### 2. Mettre en place un environnement virtuel :
 * Créer l'environnement virtuel: `python -m venv venv`
@@ -28,7 +27,13 @@ cd
 pip install -r requirements.txt
 ```
 
-## 4. Renseigner clé API Chat GPT
+### 4. Installer Tesseract
+
+Installer le logiciel Tesseract pour le traitement d'images : https://tesseract-ocr.github.io/tessdoc/Installation.html
+
+Vérifier que le lien vers le logiciel dans le service "Utils.py" ligne 70 est correct.
+
+### 5. Renseigner clé API Chat GPT
 
 Renseigner une clé API Chat GPT associé à votre compte Open AI dans le fichier .env
 

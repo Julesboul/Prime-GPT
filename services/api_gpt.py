@@ -12,6 +12,9 @@ load_dotenv()
 OPEN_AI_API_KEY = os.getenv('OPEN_AI_API_KEY')
 
 class ApiGPTService:
+    """
+        Service which interract with the ChatGPT's API.
+    """
 
     def ask_chat_gpt(resume, num, allowed_extensions):
 
