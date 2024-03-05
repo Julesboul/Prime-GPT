@@ -21,3 +21,9 @@ class FormatNotAcceptedException(Exception):
         Raise if the format asked does not exist
     """
     pass
+
+class NoFileException(Exception):
+    """
+        Raise when there is no file in the request
+    """
+    pass

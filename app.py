@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 
-from exceptions import EmptyFileException, NoExtensionException, NotAllowedExtensionException
+from exceptions import EmptyFileException, NoExtensionException, NotAllowedExtensionException, NoFileException
 from services.utils import UtilsService
 from services.api_gpt import ApiGPTService
 
@@ -22,7 +22,8 @@ def create_app(config):
         try:
 
             if 'resume' not in request.files :
-                return redirect(url_for("error", message="Pas de fichier transmis lors de la requête."))
+
+                raise NoFileException
 
             resume = request.files.get('resume') # Get the file
             type_format = int(request.form.get('typeFormat')) # Get the format for the answer
@@ -30,6 +31,9 @@ def create_app(config):
             answer = ApiGPTService.ask_chat_gpt(resume, type_format, ALLOWED_EXTENSIONS) # Ask ChatGPT
 
             return render_template("result.html", answer=answer)
+        
+        except NoFileException:
+            return redirect(url_for("error", message="Pas de fichier transmis."))
         
         except EmptyFileException:
 

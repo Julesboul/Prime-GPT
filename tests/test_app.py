@@ -14,10 +14,9 @@ class TestApp:
     
     def test_result_no_resume(self, client):
 
-        test_file = open("tests/files/test.pdf", "rb")
         response = client.post('/result') 
 
-        assert response.status_code == 200
+        assert response.status_code == 302
 
     def test_result_wrong_extension(self, client):
 
