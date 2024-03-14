@@ -35,6 +35,7 @@ Vérifier que le lien vers le logiciel dans le service "Utils.py" ligne 70 est c
 
 ### 5. Renseigner clé API Chat GPT
 
+Créer un fichier .env sur la base du fichier .env_template
 Renseigner une clé API Chat GPT associé à votre compte Open AI dans le fichier .env
 
 ## Démarrage
