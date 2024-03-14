@@ -2,6 +2,7 @@
 # Projet Prime GPT (Flask)
 
 Cette application a été conçue pour la société Prime Engineering afin qu'ils puissent l'utiliser dans leur processus de recrutement.
+
 Elle réalise un résumé de CV en quelques lignes à l'aide de l'API de ChatGPT et selon 2 formats standards de résumés.
 
 ## Pré-requis
@@ -36,6 +37,7 @@ Vérifier que le lien vers le logiciel dans le service "Utils.py" ligne 70 est c
 ### 5. Renseigner clé API Chat GPT
 
 Créer un fichier .env sur la base du fichier .env_template
+
 Renseigner une clé API Chat GPT associé à votre compte Open AI dans le fichier .env
 
 ## Démarrage
