@@ -34,7 +34,7 @@ class ApiGPTService:
 
         messages = [{"role": "user", "content" : f"Ceci est un résumé de CV : \n '{format_answer}'"}]
 
-        messages.append({"role": "user", "content" : f"Résume le CV suivant : \n '{to_resume}'"})
+        messages.append({"role": "user", "content" : f"Résume le CV suivant en 4-5 lignes: \n '{to_resume}'"})
 
         client = OpenAI(api_key=OPEN_AI_API_KEY)
         
