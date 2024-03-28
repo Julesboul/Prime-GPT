@@ -1,11 +1,13 @@
-Je vous présente les compétences de Eric, chef de projet dans le domaine ferroviaire.
+<p>
+Je vous présente les compétences de <strong>Eric, chef de projet dans le domaine ferroviaire</strong>.
 
-Ingénieur diplômé du CESI, il a plus de 25 ans d’expérience en tant que chef de projet dans le secteur de l’automobile et du transport.
+<strong>Ingénieur</strong> diplômé du <strong>CESI</strong>, il a plus de <strong>25 ans</strong> d’expérience en tant que chef de projet dans le secteur de l’automobile et du transport.
 
-Il cumule plusieurs expériences pour des entreprises comme Mecano, Alstom, Faiveley Transport ou encore Bombardier.
+Il cumule plusieurs expériences pour des entreprises comme <strong>Mecano, Alstom, Faiveley Transport</strong> ou encore <strong>Bombardier</strong>.
 
-Il a assuré le lacements de projets de fabrication et de lignes d’assemblages pour les derniers métros de Lille et Caracas (3M€ chacune), assuré l’installation de lignes de production pour de l’aménagement de train (sièges, moussages, barres) et plus récemment assuré des missions de chef de projet pour tripler la production des lignes et l’assemblage pour les JO 2024 pour un total de 25M€ (gestion de 120 fournisseurs, relations avec les achats, les études et l’industie directement).
+Il a assuré le lacements de projets de fabrication et de lignes d’assemblages pour les <strong>derniers métros de Lille et Caracas</strong> (3M€ chacune), assuré l’installation de lignes de production pour de l’aménagement de train (sièges, moussages, barres) et plus récemment assuré des missions de chef de projet pour <strong>tripler la production des lignes et l’assemblage</strong> pour les <strong>JO 2024</strong> pour un total de <strong>25M€</strong> (gestion de 120 fournisseurs, relations avec les achats, les études et l’industie directement).
 
-Eric est également intervenu sur la gestion d’un projet de rétrofit sur des compresseurs pour les métros de la RATP avec Faiveley et chez Bombardier, en tant que responsable méthode et qualité pour la supervision de l’installation d’une ligne d’assemblage.
+Eric est également intervenu sur la gestion d’un projet de rétrofit sur des compresseurs pour les métros de la <strong>RATP</strong> avec <strong>Faiveley</strong> et chez <strong>Bombardier</strong>, en tant que responsable méthode et qualité pour la supervision de l’installation d’une ligne d’assemblage.
 
-Eric, est mobile dans les Hauts-de-France dès maintenant.
+Eric, est <strong>mobile dans les Hauts-de-France dès maintenant</strong>.
+</p>

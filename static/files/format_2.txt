@@ -1,25 +1,35 @@
-Eric : chef de projet dans le domaine ferroviaire.
+<p><strong>Eric : chef de projet dans le domaine ferroviaire</strong>.
 
-- Diplôme : Ingénieur diplômé du CESI
+<ul>
 
-- Expérience : plus de 20 ans (Ferroviaire, automobile et transport)
+<li> Diplôme : <strong>Ingénieur</strong> diplômé du <strong>CESI</strong> </li>
 
-- Expériences principales : Mecano, Alstom, Faiveley Transport ou encore Bombardier.
+<li> <strong>Expérience : plus de 20 ans (Ferroviaire, automobile et transport)</strong> </li>
 
-- Grands chantiers : 
+<li> <strong>Expériences principales</strong> : Mecano, <strong>Alstom, Faiveley Transport</strong> ou encore <strong>Bombardier</strong>. </li>
 
-    - Etudes et pilotage projet confidentielle pour la mise à jour du train Orient Express
+<li> <strong>Grands chantiers</strong> : 
+    <ul>
 
-    - Fabrication et de lignes d’assemblages pour les derniers métros de Lille et Caracas (3M€ chacune), 
+    <li> Etudes et pilotage projet confidentielle pour la mise à jour du train <strong>Orient Express</strong> </li>
 
-    - Installation de lignes de production pour de l’aménagement de train (sièges, moussages, barres) 
+    <li> Fabrication et de lignes d’assemblages pour les <strong>derniers métros de Lille et Caracas</strong> (3M€ chacune), </li>
 
-    - Chef de projet pour tripler la production des lignes et l’assemblage pour les JO 2024 pour un total de 25M€ (gestion de 120 fournisseurs, relations avec les achats, les études et l’industie directement).
+    <li> Installation de <strong>lignes de production pour de l’aménagement de train</strong> (sièges, moussages, barres) </li>
 
-    - Gestion d’un projet de rétrofit sur des compresseurs pour les métros de la RATP avec Faiveley et chez Bombardier, en tant que responsable méthode et qualité pour la supervision de l’installation d’une ligne d’assemblage.
+    <li> Chef de projet pour <strong>tripler la production des lignes et l’assemblage</strong> pour les <strong>JO 2024</strong> pour un total de <strong>25M€</strong> (gestion de 120 fournisseurs, relations avec les achats, les études et l’industie directement). </li>
 
-- Anglais : courant
+    <li> Gestion d’un projet de <strong>rétrofit sur des compresseurs</strong> pour les <strong>métros de la RATP</strong> avec <strong>Faiveley</strong> et chez <strong>Bombardier</strong>, en tant que responsable méthode et qualité pour la supervision de l’installation d’une ligne d’assemblage. </li>
 
-- Disponibilité : immédiate
+    </ul>
 
-- Mobilité : Hauts-de-France 
+</li>
+
+<li> <strong>Anglais : courant</strong> </li>
+
+<li> Disponibilité : immédiate </li>
+
+<li> Mobilité : Hauts-de-France </li>
+
+</ul>
+</p>

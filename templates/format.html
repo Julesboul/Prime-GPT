@@ -3,18 +3,16 @@
 {% block content %}
 
 <div class="my-5">
-    <div class="p-5 text-center bg-body-tertiary">
-        <div class="container py-5">
-            {% if exemple %}
-                <h1 class="text-body-emphasis">Exemple du format</h1>
-                <p></p>
-                <p class="col-lg-8 mx-auto lead"> {{ exemple }} </p>                
-            {% else %}
-                <h1 class="text-body-emphasis">Erreur</h1>
-                <p></p>
-                <p class="col-lg-8 mx-auto lead"> Une erreur est survenue. </p>
-            {% endif %}
-        </div>
+    <div class="p-5 bg-body-tertiary">
+        {% if exemple %}
+            <h1 class="text-body-emphasis">Exemple du format</h1>
+            <p></p>
+            {{ exemple | safe }}                
+        {% else %}
+            <h1 class="text-body-emphasis">Erreur</h1>
+            <p></p>
+            <p class="col-lg-8 mx-auto lead"> Une erreur est survenue. </p>
+        {% endif %}
     </div>
 </div>
 
