@@ -67,7 +67,7 @@ class UtilsService:
 
         text = ""
 
-        path_to_tesseract = '/app/.apt/usr/bin/tesseract' # Path to tesseract
+        path_to_tesseract = r'C:/Program Files/Tesseract-OCR/tesseract.exe' # Path to tesseract
 
         pytesseract.tesseract_cmd = path_to_tesseract 
 
