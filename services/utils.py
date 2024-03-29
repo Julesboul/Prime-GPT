@@ -67,7 +67,7 @@ class UtilsService:
 
         text = ""
 
-        path_to_tesseract = '/.apt/usr/bin/tesseract' # Tessercat's path
+        path_to_tesseract = '/app/.apt/usr/bin/tesseract' # Tessercat's path
 
         pytesseract.tesseract_cmd = path_to_tesseract 
 
