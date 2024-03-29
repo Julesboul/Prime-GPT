@@ -1,48 +1,48 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-# Projet Prime GPT (Flask)
+# Prime GPT project (Flask)
 
-Cette application a été conçue pour la société Prime Engineering afin qu'ils puissent l'utiliser dans leur processus de recrutement.
+This application was made for the Prime Engineering compagny in order to support it recruitement process.
 
-Elle réalise un résumé de CV en quelques lignes à l'aide de l'API de ChatGPT et selon 2 formats standards de résumés.
+It summarizes a resume in a few lines using ChatGPT's API. There are 2 different abstract formats to choose from.
 
-## Pré-requis
+## Prerequisites
 
-* Installer Python 3 : [Téléchargement Python 3](https://www.python.org/downloads/)
-* Installer git : [Téléchargement Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git)
+* Install Python 3 : [Download Python 3](https://www.python.org/downloads/)
+* Install git : [Download Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git)
 
 ## Installation
 
-### 1. Télécharger le projet sur votre répertoire local : 
+### 1. Download the project on your local repository : 
 ```
 git clone git@github.com:Julesboul/Prime-GPT.git 
 ```
-### 2. Mettre en place un environnement virtuel :
-* Créer l'environnement virtuel: `python -m venv venv`
-* Activer l'environnement virtuel :
+### 2. Setup a virtual environment :
+* Create the virtual environment: `python -m venv venv`
+* Active it:
     * Windows : `venv\Scripts\activate.bat`
     * Unix/MacOS : `source venv/bin/activate`
 
     
-### 3. Installer les dépendances du projet
+### 3. Install project dependencies
 ```
 pip install -r requirements.txt
 ```
 
-### 4. Installer Tesseract
+### 4. Install Tesseract
 
-Installer le logiciel Tesseract pour le traitement d'images : https://tesseract-ocr.github.io/tessdoc/Installation.html
+Install Tesseract to process pictures : https://tesseract-ocr.github.io/tessdoc/Installation.html
 
-Vérifier que le lien vers le logiciel dans le service "Utils.py" ligne 70 est correct.
+Check that the link to tesseract in "Utils.py" service line 70 is correct.
 
-### 5. Renseigner clé API Chat GPT
+### 5. Put your ChatGPT's API key
 
-Créer un fichier .env sur la base du fichier .env_template
+Create a .env file like the .env_template
 
-Renseigner une clé API Chat GPT associé à votre compte Open AI dans le fichier .env
+Put your ChatGPT's API key linked to your Open AI's account in the .env file
 
-## Démarrage
-* Lancer le script à l'aide de la commande suivante : `flask run`
+## Launch
+* Launch the app with the command line : `flask run`
 
 ## Tests
 
-* Lancer les tests à l'aide de la commande suivante : `pytest`
+* Launch tests with the command line : `pytest`
